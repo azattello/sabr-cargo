@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            SABR cargo
+        </title>
+        <meta
+            name="description"
+            content="SABR cargo"
+        />
+        <meta
+            name="keywords"
+            content="SABR cargo"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <meta name="theme-color" content="#fff" />
+
+
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <link rel="icon" href="./src/logo.jpg" />
+
+
+       
+    </head>
+    <body class="body">
+        <div class="overflow">
+                
+        </div>
+
+        
+        <header class="header">
+            <h1>Главная</h1>
+            <img src="./src/logo.jpg" alt="">
+        </header>
+
+        <main class="index__main">
+            <div class="modal">
+                <ion-icon class="close" name="close-outline"></ion-icon>
+
+                <div class="formAdd" action="">
+        
+                    <label for="title">Описание трека</label>
+                    <input type="title" name="title" id="title" placeholder="Описание трека" value="">
+                    
+                    <label class="label__last" for="number">Трек посылки</label>
+                    <input type="text" name="number" id="number" placeholder="Трек посылки" value="">
+        
+        
+                </div>
+
+                <button class="addTrackButton" type="button">Добавить трек</button>
+    
+            </div>
+
+            <button type="button" class="add__track">Добавить трек</button>
+
+            <div class="track__container">
+                
+                <!-- <div class="track">
+                    <div class="track__header"><h2>JT32144321532</h2><ion-icon name="ellipsis-vertical"></ion-icon></div>
+                    <div class="track__content">
+                        <div class="opisanie"><p class="opisanie__p">Куртка желтаasfdas fdaafdsfd ssя</p></div>
+                        <div class="status__container">
+                            <div class="status_el">
+                                <div class="status-ellipse" >
+                                    <div class="ellips"></div>
+                                </div>
+                                <div><p>Прибыл на склад в Китае </p><p class="date">21.11.2023</p></div>
+                               
+                            </div>
+                            <div class="status_el">
+                                <div class="status-ellipse">
+                                    <div class="ellips"></div>
+                                </div>
+                                <div><p>Отправлено в Алматы </p><p class="date">21.11.2023</p></div>
+                            </div>
+                            <div class="status_el">
+                                <div class="status-ellipse">
+                                    <div class="ellips3"></div>
+                                </div>
+                                <div><p>Прибыло в Алматы</p><p class="date">21.11.2023</p></div>
+
+                            </div>
+                            <div class="status_el">
+                                <div class="status-ellipse">
+                                    <div class="ellips4"></div>
+                                </div>
+                                <div><p>Получено</p><p class="date">21.11.2023</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                
+
+
+            </div>
+
+        </main>
+        <div class="space"></div>
+
+        <footer class="footer">
+
+            <a href="./archive.html">
+                <ion-icon name="file-tray-full-outline"></ion-icon>
+                <p class="no-active">Получено</p>
+            </a>
+            <a href="./index.html">
+                <ion-icon class="icon-active" name="home"></ion-icon>
+                <p class="p-active">Главная</p>
+            </a>
+            <a href="./account.html">
+                <ion-icon name="person-circle-outline"></ion-icon>
+                <p class="no-active">Аккаунт</p>
+            </a>
+        </footer>
+        <script type="module">
+            import { showClass } from "./js/deleteC.js";
+          
+            window.importAndShowClass = function(element) {
+              showClass(element);
+            };
+        </script>
+        <script type="module" src="./js/deleteC.js"></script>
+        <script src="./js/access.js"></script>
+        <script type="module" src="./js/bookmark.js"></script>
+        <script type="module" src="./js/screenTracks.js"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    </body>
+</html>

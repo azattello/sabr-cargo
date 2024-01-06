@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            SABR cargo
+        </title>
+        <meta
+            name="description"
+            content="SABR cargo"
+        />
+        <meta
+            name="keywords"
+            content="SABR cargo"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <meta name="theme-color" content="#fff" />
+
+
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <link rel="icon" href="./src/logo.jpg"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    </head>
+    <body class="body">
+        <main class="wrapper wrapper__auth">
+            <img src="./src/logo.jpg" alt="">
+            <form id="form" action="" method="post">
+                <h1>Регистрация</h1>
+
+                <label for="phone">Телефон номер</label>
+                <input type="tel" name="phone" id="phone" placeholder="+77....">
+
+                <label for="name">Имя на английском</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+                
+                <label for="surname">Фамилия на английском</label>
+                <input type="text" name="surname" id="surname" placeholder="Surname">
+
+                <label for="city">Ваш город</label>
+                <input type="text" name="sity" id="city" placeholder="Алматы">
+
+                <label for="paswd">Придумайте пароль</label>
+                <input type="password" name="paswd" id="paswd" placeholder="*********">
+
+                <button type="button" class="button">Регистрация</button>
+
+                <a href="./auth.html">Кіру / Вход</a>
+            </form>
+
+
+        </main>
+
+        <script type="module" src="./js/reg.js"></script>
+        <script src="./js/accessAuth.js"></script>
+
+
+    </body>
+</html>

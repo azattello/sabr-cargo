@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            Админ панель
+        </title>
+        <meta
+            name="description"
+            content=""
+        />
+        <meta
+            name="keywords"
+            content=""
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <meta name="theme-color" content="#ffff" />
+
+
+        <link rel="stylesheet" type="text/css" href="./admin.css" />
+        <link rel="icon" href="../src/logo.jpg" />
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    </head>
+    <body class="body">
+        <div class="overflow">
+                
+        </div>
+        <header class="header">
+            <img class="logo" src="../src/logo.jpg" alt="">
+
+            <h3>Удаленные</h3>
+            
+           <div class="burger">
+               <ion-icon class="open" size="large" name="menu"></ion-icon>
+               <ion-icon class="close active" size="large" name="close"></ion-icon>
+            </div>
+
+        </header>
+        
+        <div class="menuList">
+            <ul>
+                <a href="./admin.html">
+                    <li class="menuItems">Добавить трек код</li>
+                </a>
+                <a href="./clients.html">
+                    <li class="menuItems">Клиенты</li>
+                </a>
+                <a href="./tracks.html">
+                    <li class="menuItems">Трек коды</li>
+                </a>
+                <a href="./del.html">
+                    <li class="menuItems">Удаленные трек коды</li>
+                </a>
+                <div class="exit">
+                    Выйти
+                </div>
+            </ul>
+        </div>
+
+        <main class="main">
+
+    
+            <div class="list__container">
+                <h1>Удаленные</h1>
+                <ol class="list__wrapper">
+                    
+                </ol>
+                
+             
+               
+            </div>  
+
+
+               
+        </main>
+        <script type="module">
+            import { showClass } from "./script/restore.js";
+          
+            window.importAndShowClass = function(element) {
+              showClass(element);
+            };
+          </script>
+        <script src="./script/menu.js"></script>
+        <script src="./script/accessPages.js"></script>
+        <script src="./script/exit.js"></script>
+
+        <script type="module" src="./script/delScreen.js"></script>
+        <script type="module" src="./script/restore.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

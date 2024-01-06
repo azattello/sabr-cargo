@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            SABR cargo
+        </title>
+        <meta
+            name="description"
+            content="SABR cargo"
+        />
+        <meta
+            name="keywords"
+            content="SABR cargo"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <meta name="theme-color" content="#fff" />
+
+
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <link rel="icon" href="./src/logo.jpg"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    </head>
+    <body class="body">
+        <main class="wrapper wrapper__auth">
+            <img src="./src/logo.jpg" alt="">
+            <form action="" method="post" class="auth__form">
+                <h1>Вход</h1>
+
+                <label for="phone">Телефон номер</label>
+                <input type="tel" name="phone" id="phone" placeholder="+77....">
+
+                <label for="paswd">Введите пароль</label>
+                <input type="password" name="paswd" id="paswd" placeholder="*********">
+
+                <button type="button" disabled class="button">Войти</button>
+
+                <a href="./reg.html">Тіркелу / Зарегистрироваться</a>
+            </form>
+
+
+        </main>
+
+        <script type="module" src="./js/auth.js"></script>
+        <script type="module" src="./js/config.js"></script>
+        <script src="./js/accessAuth.js"></script>
+    </body>
+</html>
